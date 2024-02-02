@@ -1,0 +1,59 @@
+If we are working with online server we have to turn off the auto save
+
+CSS-Cascading Style Sheets
+    it is responsible for styling the web 
+    HTML is used to make  structure(HTML is responsible for what elements will be displayed)
+    CSS used to make layout and look(CSS is takes care of how elements are displayed)
+Syntax of the CSS f
+
+inline CSS- we do css for perticular line
+            for this we have to do styling in that perticular line and each and every line
+internal CSS-in this we do css for whole page which have same size heddings
+          for this we have to do styling in the head
+    internal CSS is good but there is an issue, if we navigate to another page which has same content from the link. the same css may not work for that pages b/c of this we need to do css for every page to avoid this and to save time and make coding simpl we do external css         
+external CSS-in this we make seprate CSS file, in that file we create standards for  perticular sizes of headings or paragraphs so that in which ever page we need same CSS we create a link(use link element) in head and acces that CSS file.
+
+Out of these 3, inline CSS is more stronger. it can over ride the both internal & external CSS
+even if we are doing external CSS, if i want to change colour for single page that can be done by internal CSS for perticular page 
+
+commenting in CSS /* comment line */
+Syntax in EXTERNAL CSS
+h1 {
+    colour:red;
+    size:20mm;
+}
+h2 {
+    colour:blue;
+    size:22mm;
+}
+
+h1&h2-element selectors
+{}- Decleration block
+colour&size- properties
+red&20mm -Value
+
+note point- semicolon(;) is must and should from property to property, otherwise property may not work
+elements grouping is where we can combine elements and do css
+we select h1&h2 at time and we can apply CSS that is element grouping 
+
+if we want to do css for whole body tag which has multipiple elements in it, we can select that body and we can do CSS 
+
+if we have 6 h2 tags in a page and if we want to do different CSS for 3 pairs of  individual tags, in that position we can create id in css file with # as shown below
+#PAIR1{
+    colour: red;
+}
+id spelling should be same in css file as well as in html file otherwise html file won't recognise
+
+Class Selectors
+when we have used single tag for multiple times and if we need to apply different colours for perticular lines, then we can create a class in CSS file and we can access that in html file for perticular line
+Syntax for class in HTML
+    <h6 class="about">Internal CSS</h6>
+    <h6 class="info">Internal CSS </h6>
+    <h6 class="about">Internal CSS </h6>
+Syntax for CSS
+.about{
+    colour: red
+}
+.info: green
+
+

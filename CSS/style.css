@@ -1,0 +1,20 @@
+h1{
+    column-rule-color: purple;
+}
+h2{
+    color: bisque;
+}
+p{
+    color: yellow;
+}
+
+#heading5{
+    color: brown;
+    background-color: black;
+}
+.about{
+    color: red;
+}
+.info{
+    color: brown;
+}
