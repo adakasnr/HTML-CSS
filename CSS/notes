@@ -68,4 +68,28 @@ SPAN is used when we need to do CSS for single word or line
 we can also create a class and assign it to div
 
 inheritance- when we do CSS in HTML to the parent element, that CSS will also get applied to the child element inhrently until we do separate CSS to the child element
- 
+
+Last Rule- if we do CSS mulple times to the same element, then last CSS done to same last element is considered for the whole element
+
+specificity- if we apply different CSS to same in different ways for example assiging through class 1st and declation block last, even though as per last rule declaration need to be considerd but class CSS only to be considered b/c it is more specific
+
+Universal Selector(*)- if we make declaration block through * then whole page will follow same CSS, but it is least powerfull b/c all process will over ride this
+
+Color Property- is responsible for color of the TEXT
+Background Color- is responsible for background
+CSS has almost 140 colors
+RGB-RED GREEN BLUE (each color values varies from 0-255) Ex- 255,0,0 which means red given as max and reaminig 2 are 0 that is pure red
+
+Red-(255,0,0)
+Black-(0,0,0) 
+White-(255,255,255)
+Green-(0,255,0)
+
+RGBA- red green blue Alpha
+RGBA Specifies opacity(the quality of lacking transparency) of the for a colour
+Alpha parameter is a number b/w 0.0(fully transperent) to 1.0(not transperent at all)
+
+Pixel
+1 pixel= 1 dot
+
+percent value
