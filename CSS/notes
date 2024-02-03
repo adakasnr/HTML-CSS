@@ -50,10 +50,22 @@ Syntax for class in HTML
     <h6 class="about">Internal CSS</h6>
     <h6 class="info">Internal CSS </h6>
     <h6 class="about">Internal CSS </h6>
+    <h6 class="info">Internal CSS </h6>
+    <h6 class="info">Internal CSS </h6>
+    <h6 class="about">Internal CSS </h6>
 Syntax for CSS
 .about{
-    colour: red
+    color: red;
 }
-.info: green
+.info{
+    color: brown;
+}
 
+DIV&SPAN- these 2 are for grouping elements
+DIV is used when we need to do group block level element
+SPAN is used when we need to do CSS for single word or line
 
+we can also create a class and assign it to div
+
+inheritance- when we do CSS in HTML to the parent element, that CSS will also get applied to the child element inhrently until we do separate CSS to the child element
+ 

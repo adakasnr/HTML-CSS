@@ -18,3 +18,15 @@ p{
 .info{
     color: brown;
 }
+
+div{
+    color: aquamarine;
+}
+span{
+    color: pink;
+    text-transform: uppercase;
+}
+
+.background{
+    background-color: gray;
+}
