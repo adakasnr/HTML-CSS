@@ -92,4 +92,38 @@ Alpha parameter is a number b/w 0.0(fully transperent) to 1.0(not transperent at
 Pixel
 1 pixel= 1 dot
 
-percent value
+percent value is considered based on the outer and inner values
+if we give px value to outer element and if we want the inner value 30%(width&height) to the outer value, then we can mention % in inner value 
+
+1em = 16px (default browser)
+1em = base value
+
+relative to screen- if we are changing page size then our content will also change according to it, this can be done by the vh&vw
+vh(view height)- height - percent of the screen
+vw(view width)- width - percent of the screen
+This we usually do for banners
+
+Default browser styles
+we can inspect the page in google chrome and do some changes and check how looks in browser, the changes made in browser for inspection are not gone be saved
+
+calculations in CSS
+if we add 2 backgrounds in single page that screen % will added like 100vh+200px by default, but we want then as 100 then we use [calc(100vh-20px)] function and do math operations to fit both background colours as 100%
+
+TYPOGRAPHY
+font family- describes font of an element
+if we assign a font to text there might be possibility browser may not recognise so we can add multiple fonts browser will take which ever it support or we can select generic family(it allows browser to select similar font)(generic familiy ex-serif,sans serif,cursive,fantasy,monospace)
+to get font suggetions we click ctrl+space bar
+we can take fonts from googlefonts website by impoting font or by link
+
+font size- size of the text
+font weight- it makes text bolder or lighter
+font style- like italic, oblique
+
+text align-it sets the text in wanted position like center, right or left
+text indent-[indent means start (a line of text) or position (a block of text) further from the margin than the main part of the text]
+
+line height- spacing b/w lines
+letter spacing- space b/w letters(alphabates) 
+word spacing-space b/w words
+text transform- it will transform the text into lowercase or uppercase or capitalise(first letter of the word will be capital)
+text decoration- it will do underline or striking kind of options for decoration to the text
