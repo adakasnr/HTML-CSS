@@ -127,3 +127,31 @@ letter spacing- space b/w letters(alphabates)
 word spacing-space b/w words
 text transform- it will transform the text into lowercase or uppercase or capitalise(first letter of the word will be capital)
 text decoration- it will do underline or striking kind of options for decoration to the text
+
+CSS BOX MODEL
+
+Margin
+border
+padding
+content 
+
+Padding Values order - top right bottom left
+Remember last rule most of the times
+
+border can be modified in different ways
+we can also give negative margin to box
+
+OUTLINE- 
+OFFSET- we can move outline little offset(either in or out)
+
+Display Properties
+Block-always starts a new line and takes full width
+Inline-Does not start and only take up as much as content space
+
+Horizontal centering 
+for centering the inline element we need to use text-align
+for centering the block level elemet we need to use margin(margin:50px auto)
+
+while listing we can use list-style-type for 
+inline block does not respect top&bottom padding
+box block element respect all padding
