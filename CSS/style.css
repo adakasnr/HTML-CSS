@@ -48,7 +48,7 @@ h1{
     border-color: pink ;
     border-radius: 25px;
 }
-
+/*
 p{
     color: black;
     background: red;
@@ -58,7 +58,19 @@ p{
     border-style: dotted;
     border-radius: 100%;
 }
-
+*/
 ul {
     list-style-type: square;
+}
+
+div{
+    height: 200px;
+    color: red;
+}
+.beans{
+    background: url(/CSS/coffee_beans.jpg);
+}
+h3{
+    height: 300px;
+    background: url(/CSS/coffee.jpg);
 }

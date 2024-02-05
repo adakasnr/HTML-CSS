@@ -155,3 +155,12 @@ for centering the block level elemet we need to use margin(margin:50px auto)
 while listing we can use list-style-type for 
 inline block does not respect top&bottom padding
 box block element respect all padding
+
+Visibility-it specifies weather the box need to be displied or not 
+
+BACKGROUND
+for this we need to create class and in CSS we have to assign url property to background, in url we need to select path of image
+as of now if one background img fits and div is bigger then same image will repeat along side by default for this we need to select image as per size or
+in CSS we need to set no-repeat for background- repeat
+best option is select background as cover then it will fit according to size
+background attachment-while scrolling photo won't move but text will move
