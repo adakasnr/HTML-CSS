@@ -164,3 +164,33 @@ as of now if one background img fits and div is bigger then same image will repe
 in CSS we need to set no-repeat for background- repeat
 best option is select background as cover then it will fit according to size
 background attachment-while scrolling photo won't move but text will move
+
+clear
+
+position static
+position relative
+position absolute
+
+media screen-
+syntax
+@ media{
+    tag{
+        property: value;
+    }
+}
+
+z index will only work when position is relative or absolute but not when static
+
+pseudo element(::)- we can add content through CSS before and after content.
+hover
+
+Descendant
+when we wanted to select child tag and do changes in the div
+syntax
+div > h1{
+
+}
+even if we do changes directly to the child as per last rule but if there is classs then class CSS will aplly b/c class is more specific or else we can select through class that will act as per last rule 
+.class > h1 {
+
+}   

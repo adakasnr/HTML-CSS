@@ -64,13 +64,52 @@ ul {
 }
 
 div{
-    height: 200px;
+    height: 300px;
     color: red;
+    align-items: center;
+    box-sizing: border-box;
 }
 .beans{
     background: url(/CSS/coffee_beans.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
 }
 h3{
     height: 300px;
     background: url(/CSS/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-attachment: fixed;
+    display: flex;
+    clear: ;
+}
+
+@media screen and (min-width:500px) {
+    body{
+        background: yellow ;
+    }
+}
+p::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 200px;
+}
+p:hover{
+    color: blue;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    font-size: 50px;
+}
+p:active{
+    
 }
