@@ -36,7 +36,7 @@ span{
     width: 50vw;
     height: 50vh;
 }
-*/
+
 
 h1{
     color: black;
@@ -48,7 +48,7 @@ h1{
     border-color: pink ;
     border-radius: 25px;
 }
-/*
+
 p{
     color: black;
     background: red;
@@ -58,7 +58,7 @@ p{
     border-style: dotted;
     border-radius: 100%;
 }
-*/
+
 ul {
     list-style-type: square;
 }
@@ -111,5 +111,33 @@ a:hover{
     font-size: 50px;
 }
 p:active{
-    
+
+}
+*/
+
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background: black;
+    transform: translateX(100px);
+}
+
+.one {
+    background: red;
+    transform: rotateZ(45deg);
+}
+.two {
+    background: blue;
+    transform: skewY(20deg);
+}
+.three {
+    background: green;
+    transition-property:initial ;
+    transition-duration: 4s;
+}
+.three:hover{
+    border-radius: 50%;
 }

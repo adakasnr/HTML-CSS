@@ -188,9 +188,24 @@ Descendant
 when we wanted to select child tag and do changes in the div
 syntax
 div > h1{
-
+   property:value
 }
 even if we do changes directly to the child as per last rule but if there is classs then class CSS will aplly b/c class is more specific or else we can select through class that will act as per last rule 
 .class > h1 {
-
+   property:value
 }   
+
+transform: translate(),scale(),rotate(),skew()
+
+transition timing function
+default
+ease
+linear
+ease in & ease out
+
+animation
+@keyframes move {
+     
+}
+
+For adding icons use i tag and for icons we have to link the fontawsome website link in the head tag
