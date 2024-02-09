@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        /* display: flex; --> Default Row */
+        /* flex-direction: row; */
+        width: 100%;
+        align-items: center;
+        /* justify-content: space-around; */
+
+        flex-wrap: wrap;
+
+        gap: 10px;
+        justify-content: space-between;
+      }
+
+      ul li {
+        /* height: 20px; */
+        /* width: 19.8%; */
+        background: red;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <div style="display: flex; align-items: center; gap: 10px">
+          <li>Sriman</li>
+          <li>Siva</li>
+          <li><span style="margin-top: 20px">Mahesh</span></li>
+          <li>Sriman</li>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px">
+          <li>Siva</li>
+          <li><span style="margin-top: 20px">Mahesh</span></li>
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>

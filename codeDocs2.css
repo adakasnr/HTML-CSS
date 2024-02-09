@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+span{
+    color: gray;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    color: white;
+    background-color: green;
+}
+.icons{
+    margin-left: 800px;
+    color: green;
+
+}
+.fa-brands{
+    font-size: 25px;
+    margin: 10px;
+}
+.body{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(47, 172, 47);
+    width: 100%;
+    height: 240px;
+    margin-top: 10px;
+    padding-top: 40px;
+}
+p{
+    margin-top: 20px;
+}
+input{
+    margin-top: 20px;
+    width: 550px;
+    height: 40px;
+    border-radius: 30px;
+}
+.fa-magnifying-glass{
+    margin-right: 5
+}
+
+.w-24 {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 70px;
+    border-radius: 6px;
+}
+
+.Section{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
