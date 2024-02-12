@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.side{
+    width: 20%;
+    padding-left: 
+    
+}
+h1{
+    background: gray;
+}
+.content{
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+
+
+.header{
+    display: flex;
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-left: 200px;
+}
+.right{
+    display: flex;
+    margin-left: 600px;
+    gap: 50px;
+}
