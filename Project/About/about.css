@@ -20,7 +20,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: purple;
+    background: #596e79;
 }
 
 .side {
@@ -29,7 +29,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: grey;
+    background: #c7b198;
     padding: 30px;
 }
 
@@ -45,7 +45,7 @@ a{
 }
 
 a:hover {
-    background: purple;
+    background: #596e79;
 }
 
 a:link {

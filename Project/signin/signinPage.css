@@ -1,5 +1,5 @@
 body{
-    background: url(/Project/web\ bg.jpg);
+    background: url(/Project/login/web\ bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11,8 +11,8 @@ body{
 }
 
 .loginBox {
-    /* width: 200px; */
-    background: red;
+    background: transparent;
+    border: 1px solid;
     border-radius: 5px;
     padding: 20px 40px;
     display: flex;
@@ -22,12 +22,8 @@ body{
 
 input {
     padding: 10px 20px;
-}
-.logo{
-    width: 30px;
-    height: 100px;
-    margin-bottom: 0px;
-    background: white;
+    border: none;
+    border-radius: 8px;
 }
 
 .input {
@@ -38,4 +34,9 @@ input {
 .button{
     display: flex;
     justify-content: space-between;
+}
+button{
+    background: transparent;
+    border: 1px solid;
+    border-radius: 5px;
 }

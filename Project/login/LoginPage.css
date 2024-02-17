@@ -23,12 +23,8 @@ body{
 
 input {
     padding: 10px 20px;
-    /* outline: none; */
     border: none;
     border-radius: 8px;
-}
-.logo{
-    /* margin-bottom: 0px; */
 }
 
 .input {

@@ -20,16 +20,16 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: purple;
+    background: #596e79;
 }
 
 .side {
-    width: 20%;
-    height: 79.5vh;
+    width: 15%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: grey;
+    background: #c7b198;
     padding: 30px;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    background: purple;
+    background: #596e79;
 }
 
 a:link {
@@ -54,7 +54,7 @@ a:link {
 
 .box {
     padding: 20px;
-    background: yellow;
+    background: #f0ece2;
 }
 
 .bottom {
@@ -62,14 +62,13 @@ a:link {
 }
 
 .sections {
-    padding: 30px 80px;
-    width: 100%;
-    /* height: 80vh; */
+    padding: 30px 100px;
+    width: 85%;
     min-height: 80vh;
     max-height: 80vh;
     overflow-y: auto;
     display: flex;
-    gap: 80px;
+    gap: 100px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
@@ -77,13 +76,12 @@ a:link {
 
 .sections .box {
     width: 15%;
-    
 }
 .Boxe1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 25px;
 }
 .title{
     display: flex;
