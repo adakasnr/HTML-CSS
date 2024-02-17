@@ -12,7 +12,8 @@ body{
 
 .loginBox {
     /* width: 200px; */
-    background: red;
+    background: transparent;
+    border: 1px solid pink;
     border-radius: 5px;
     padding: 20px 40px;
     display: flex;
@@ -22,10 +23,12 @@ body{
 
 input {
     padding: 10px 20px;
+    /* outline: none; */
+    border: none;
+    border-radius: 8px;
 }
 .logo{
     /* margin-bottom: 0px; */
-    background: white;
 }
 
 .input {
@@ -36,4 +39,9 @@ input {
 .button{
     display: flex;
     justify-content: space-between;
+}
+button{
+    background: transparent;
+    border: 1px solid;
+    border-radius: 5px;
 }

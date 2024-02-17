@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+    margin: 15px;
+}
+
+button {
+    padding: 10px;
+    margin: 15px;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: purple;
+}
+
+.side {
+    width: 20%;
+    height: 79.5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: grey;
+    padding: 30px;
+}
+
+.side p {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:hover {
+    background: purple;
+}
+
+a:link {
+    color: none;
+}
+
+.box {
+    padding: 20px;
+    background: yellow;
+}
+
+.bottom {
+    display: flex;
+}
+
+.sections {
+    padding: 30px 80px;
+    width: 100%;
+    /* height: 80vh; */
+    min-height: 80vh;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.sections .box {
+    width: 15%;
+    
+}
+.Boxe1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.title{
+    display: flex;
+    justify-content: left;
+}
+.Subject{
+    display: flex;
+    justify-content: center;
+}
+.Link{
+    display: flex;
+    justify-content: end;
+} 
