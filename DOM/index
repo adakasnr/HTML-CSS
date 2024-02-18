@@ -1,0 +1,4 @@
+DOM-Document Object Model
+javascript is used to manuplate the dom and its element 
+dom is object oriented meaning that each node has its own properties and methods that we can go and we can change and we can remove things so we can manuplate basically everything on the page using javascript 
+jquary was used to do this for longtime
