@@ -2,3 +2,31 @@ DOM-Document Object Model
 javascript is used to manuplate the dom and its element 
 dom is object oriented meaning that each node has its own properties and methods that we can go and we can change and we can remove things so we can manuplate basically everything on the page using javascript 
 jquary was used to do this for longtime
+
+To examine the Document Object
+these will help us to print the info which is available in the tags
+console.dir(document);
+console.log(document.domain);
+console.log(document.URL);- it prints the URL of the page
+console.log(document.title);it give the title of the 
+
+sytanx to change or to manuplate 
+document.title=123;
+console.log(document.doctype);
+console.log(document.head);
+console.log(document.body);
+console.log(document.all);
+console.log(document.all[10]);- to print the perticular line from the whole code
+document.all[10].textcontent='hello';
+
+console.log(document.forms[0]);
+console.log(document.links);
+console.log(document.images);
+
+To get elemenmt by id
+console.log(document.getelementById('id'));
+var headerTitle =document.getElementById('id');
+console.log(headerTitle);
+headerTitle.textcontent='new string'
+headerTitle.innerText='new string'
+
