@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: rgb(7, 114, 7);
+    padding: 20px;
+}
+.content{
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 50px;
+}
+li{
+    list-style: none;
+    border: 0.5px solid;
+    padding: 5px ;
+}
