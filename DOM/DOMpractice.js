@@ -62,9 +62,6 @@
 // }
 
 // TRAVERSING THE DOM
-var listitems = document.querySelector('.box')
-
-// // parentNode
 // console.log(listitems.parentNode);
 // listitems.parentNode.style.backgroundColor = 'brown';
 // parentElement
@@ -85,22 +82,42 @@ var listitems = document.querySelector('.box')
 
 // create element 
 
-var newDiv = document.createElement('div');
-console.log(newDiv)
+// var newDiv = document.createElement('div');
+// console.log(newDiv)
 // add class & id
-newDiv.className = 'note'
-newDiv.id = 'yes'
+// newDiv.className = 'note'
+// newDiv.id = 'yes'
 
 // create text 
-var newText =  document.createTextNode('i am new text')
+// var newText =  document.createTextNode('i am new text')
 
 // adding that text to new div
-newDiv.appendChild(newText)
+// newDiv.appendChild(newText)
 
-var adding = document.querySelector('header ,.logo')
-var newh1 = document.querySelector('header h1');
+// var adding = document.querySelector('header ,.logo')
+// var newh1 = document.querySelector('header h1');
 
-console.log(newDiv)
-adding.insertBefore(newDiv,newh1);
+// console.log(newDiv)
+// adding.insertBefore(newDiv,newh1);  
 
+// addEventListener- by using this we set a callback when we click something  
 
+// var button = document.getElementById('button').addEventListener('click', function () { console.log('yes TheButtonGotClicked')
+// })
+
+var button = document.getElementById('button').addEventListener('click', buttonClick);
+
+function buttonClick(e) {
+    // console.log('button clicked')
+    // document.getElementById('logo').textContent = 'Changed';
+    // console.log(e)
+    //     console.log(e.target)
+    //     console.log(e.target.id)
+    //     console.log(e.target.className)
+    //     var output = document.getElementsByClassName('new')
+    //     output.innerHTML = '<h3>'+e.target.id+'</h3>'-not working
+
+    // console.log(e.type);
+    console.log(e.clientX);
+    console.log(e.clientY);
+}
