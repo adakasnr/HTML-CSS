@@ -1,0 +1,19 @@
+body {
+  background: rgb(196, 39, 39);
+  color: yellow;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+.main .main__paragraph {
+  font-weight: 900;
+}
+.main .main__paragraph:hover {
+  color: aqua;
+}/*# sourceMappingURL=index.css.map */

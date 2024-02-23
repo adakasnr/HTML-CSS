@@ -1,0 +1,41 @@
+// in SCSS we create global declarations with $ symbol
+
+$primary-color: rgb(196, 39, 39);
+$accent-color: pink;
+$text-color: yellow;
+$font-weight: (
+    "regular":400,
+    "medium":500,
+    "bold":900,
+);
+
+@mixin flexcenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+
+}
+// we can create a CSS with @mixin(it is sismilar like function) and we can call wherever we want, and also we can give pass arguments
+
+body {
+    background: $primary-color;
+    color: $text-color;
+}
+
+.main {
+    @include flexcenter(row);
+    width: 100%-20%;
+    margin: 0 auto;
+
+    // &- Represent Parent
+    #{&}__paragraph {
+        font-weight: map-get($font-weight, bold);
+
+        &:hover {
+            color: aqua;
+        }
+    }
+}
+// we can import(@import) scss files and it will reflect the CSS inside of that file
+// we can write function also (@funtion)
