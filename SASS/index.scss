@@ -18,8 +18,9 @@ $font-weight: (
 }
 // we can create a CSS with @mixin(it is sismilar like function) and we can call wherever we want, and also we can give pass arguments
 
+
 body {
-    background: $primary-color;
+    background: $primary-color;                 
     color: $text-color;
 }
 
@@ -39,3 +40,14 @@ body {
 }
 // we can import(@import) scss files and it will reflect the CSS inside of that file
 // we can write function also (@funtion)
+
+@mixin theme($light-theme: true) {
+    @if $light-theme {
+        background: lighten($color: $primary-color, $amount: 100%);
+        color: darken($text-color, 100%);
+    }
+}
+
+.light {
+    @include theme($light-theme: true)
+}
