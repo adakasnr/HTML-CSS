@@ -1,6 +1,6 @@
 body {
-  background: rgb(196, 39, 39);
-  color: yellow;
+  background: #272727;
+  color: #fff;
 }
 
 .main {
@@ -16,4 +16,14 @@ body {
 }
 .main .main__paragraph:hover {
   color: aqua;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.light {
+  background: white;
+  color: black;
 }/*# sourceMappingURL=index.css.map */
